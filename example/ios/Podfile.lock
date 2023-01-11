@@ -1,0 +1,65 @@
+PODS:
+  - BerTlv (0.2.5)
+  - CocoaLumberjack (3.7.4):
+    - CocoaLumberjack/Core (= 3.7.4)
+  - CocoaLumberjack/Core (3.7.4)
+  - CocoaSecurity (1.2.4)
+  - digitalkey (0.0.1):
+    - Flutter
+    - ZDK (~> 1.0.5)
+  - Flutter (1.0.0)
+  - JSONModel (1.8.0)
+  - LegicMobileSdk (2.4.2)
+  - Mixpanel (5.0.0)
+  - SaltoJustINMobileSDK (3.1.0)
+  - SeosMobileKeysSDK (7.7.2):
+    - BerTlv (= 0.2.5)
+    - CocoaLumberjack (= 3.7.4)
+    - JSONModel (= 1.8.0)
+    - Mixpanel (= 5.0.0)
+  - ZDK (1.0.6):
+    - CocoaSecurity
+    - LegicMobileSdk
+    - SaltoJustINMobileSDK
+    - SeosMobileKeysSDK
+
+DEPENDENCIES:
+  - digitalkey (from `.symlinks/plugins/digitalkey/ios`)
+  - Flutter (from `Flutter`)
+  - ZDK (~> 1.0.5)
+
+SPEC REPOS:
+  https://dl.zaplox.com/FzWwKJGeMSgHxoqp/zdk/cocoapods/index.git:
+    - LegicMobileSdk
+    - SaltoJustINMobileSDK
+    - SeosMobileKeysSDK
+    - ZDK
+  https://github.com/CocoaPods/Specs.git:
+    - BerTlv
+    - CocoaLumberjack
+    - CocoaSecurity
+    - JSONModel
+    - Mixpanel
+
+EXTERNAL SOURCES:
+  digitalkey:
+    :path: ".symlinks/plugins/digitalkey/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  BerTlv: c94b89a7b93bf8c1881691a8d105ec87a4a10759
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
+  CocoaSecurity: d288a6f87e0f363823d2cb83e753814a6944f71a
+  digitalkey: 66e22a14a9da774301efb895fcf7c43d2070e12c
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  LegicMobileSdk: 5da85b1914e2babb512f5026b798ae3885b6d830
+  Mixpanel: b26d788c4ca046f97b02900c1dfe1d49ede8704d
+  SaltoJustINMobileSDK: 42b08a486c8349563ef166c08d278c07ef2de4c3
+  SeosMobileKeysSDK: 8b1d6d63d0f2f7ae4bb3a3eb093e3efb50e16a78
+  ZDK: 13e22c7e6665dc36ca5aa428ea3f6ece7631eeee
+
+PODFILE CHECKSUM: 02ec58a1907bcc55bda1a49700a916b16478b066
+
+COCOAPODS: 1.11.3
